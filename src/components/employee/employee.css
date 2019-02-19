@@ -1,0 +1,40 @@
+.employeeBox {
+  border: 2px solid grey;
+  display: flex;
+  flex-flow: wrap;
+  width: 25%;
+  margin: 20px;
+
+  overflow: hidden;
+}
+
+.dataBox {
+  display: flex;
+}
+
+.dataBox img {
+  height: 100%;
+  width: 50%;
+  border-right: 2px solid grey;
+}
+
+.dataBox div {
+  padding: 10px;
+}
+
+.dataBox p {
+  width: 100%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .employeeBox {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .dataBox img {
+    width: 300px;
+  }
+}

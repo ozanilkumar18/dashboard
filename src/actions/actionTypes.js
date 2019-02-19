@@ -1,0 +1,5 @@
+export const SAVE_COMPANY_DETAILS = 'SAVE_COMPANY_DETAILS';
+export const DISPLAY_MODAL = 'DISPLAY_MODAL';
+export const EMPLOYEE_SORT = 'EMPLOYEE_SORT';
+export const EMPLOYEE_FILTER = 'EMPLOYEE_FILTER';
+export const ERROR = 'ERROR';

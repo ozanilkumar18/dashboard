@@ -1,0 +1,24 @@
+.filterBox {
+  border-bottom: 2px solid grey;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.filterInnerBox {
+  align-items: center; 
+  float:right;
+  margin-left:auto;
+  margin-right:0px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.filterInnerBox Search {
+  flex-wrap: nowrap;
+}
+
+
+.filterInnerBox Sort {
+
+}
